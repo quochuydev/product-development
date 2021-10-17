@@ -2,8 +2,8 @@ footer {
   background-image: url(../images/footer/bg4.png);
   background-size: 100%;
 
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
   background-color: black;
 }
