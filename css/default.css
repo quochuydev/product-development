@@ -23847,9 +23847,9 @@ pre {
   border-width: 0 0 0 1px;
   text-transform: capitalize;
   line-height: 1.35;
-  -webkit-transition: all 1s;
-  -ms-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
 }
 @media only screen and (max-width: 1199px) {
   .header-nav .nav > li > a {

@@ -2,9 +2,3 @@
   display: flex;
   padding: 0;
 }
-
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-  }
-}
