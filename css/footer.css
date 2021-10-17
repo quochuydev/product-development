@@ -5,4 +5,18 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: black;
+}
+
+.footer::before {
+  background-image: url(../images/footer/pattern2.png);
+  background-size: 100%;
+}
+
+footer .footer-top {
+  padding: 70px 0;
+}
+
+footer .footer-title {
+  font-size: 24px;
 }

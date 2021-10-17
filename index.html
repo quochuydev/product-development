@@ -28,7 +28,20 @@
               <img src="images/logo-2.png" alt="" />
             </a>
           </div>
-          <div class="header-nav">
+          <!-- toggle -->
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-expanded="false"
+            aria-controls="navbarNavDropdown"
+          >
+            Button
+          </button>
+          <!-- toggle -->
+
+          <div class="header-nav" id="navbarNavDropdown">
             <ul class="nav navbar navbar-nav">
               <li><a href="#">Home</a></li>
               <li><a href="#">Pages</a></li>
@@ -54,17 +67,14 @@
                   We develop the relationships that underpin the next phase in
                   your organisation’s growth.
                 </p>
-                <ul>
+                <ul class="list-check-2 m-b20">
                   <li>
-                    <i class="las la-battery-three-quarters"></i>
+                    <!-- <i class="las la-battery-three-quarters"></i> -->
                     Master's degree in designing
                   </li>
-                  <li>
-                    <i class="las la-battery-three-quarters"></i>
-                    Outstanding mobile design
-                  </li>
+                  <li>Outstanding mobile design</li>
                 </ul>
-                <a href="#">GET STARTED</a>
+                <a href="#" class="btn btn-primary">GET STARTED</a>
               </div>
               <div class="col-lg-5">
                 <div class="banner-media">
@@ -78,8 +88,8 @@
       </div>
     </div>
     <!-- End page-content -->
-    <footer>
-      <div class="container">
+    <footer class="footer">
+      <div class="container footer-top">
         <div class="row">
           <div class="col-lg-4">
             <div class="widget">
@@ -99,8 +109,8 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="widget">
-              <h5>Our links</h5>
+            <div class="widget widget_services">
+              <h5 class="footer-title">Our links</h5>
               <ul>
                 <li>
                   <a href="#">Home</a>
@@ -115,8 +125,8 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="widget">
-              <h5>Our Services</h5>
+            <div class="widget widget_services">
+              <h5 class="footer-title">Our Services</h5>
               <ul>
                 <li>
                   <a href="#">Strategy & Research</a>
