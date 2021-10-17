@@ -1,0 +1,18 @@
+.main-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-logo {
+  width: 130px;
+  height: 130px;
+  display: table;
+  float: left;
+}
+
+.header-logo a {
+  display: table-cell;
+  vertical-align: middle;
+}

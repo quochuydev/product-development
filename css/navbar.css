@@ -1,0 +1,11 @@
+.navbar-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
