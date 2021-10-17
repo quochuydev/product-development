@@ -6,3 +6,10 @@
 @import url(banner.css);
 
 @import url(footer.css);
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+}
+button[aria-expanded="false"] .fa-times {
+  display: none;
+}
