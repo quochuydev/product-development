@@ -10,6 +10,28 @@
 button[aria-expanded="true"] .fa-bars {
   display: none;
 }
+
 button[aria-expanded="false"] .fa-times {
   display: none;
+}
+
+.content-media {
+  float: right;
+  width: 50vw;
+  margin: 0 50px 50px 0;
+}
+
+.content-media img {
+  border-radius: 0 100px 100px 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  .content-media {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .content-media img {
+    border-radius: 30px;
+  }
 }
