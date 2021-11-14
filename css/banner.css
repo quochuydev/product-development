@@ -6,3 +6,16 @@
 .banner-inner {
   padding-top: 180px;
 }
+
+.banner-media {
+  position: relative;
+}
+
+.move {
+  position: absolute;
+  top: 0;
+}
+
+.move img {
+  transform: scale(1.4);
+}
